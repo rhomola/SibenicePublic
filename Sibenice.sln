@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sibenice", "Sibenice.csproj", "{06655502-2DB9-48D7-9DE9-C83ABD169973}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SibeniceMSI2024", "..\SibeniceMSI2024\SibeniceMSI2024.vdproj", "{DA9D471F-3E88-4098-803E-F4476F7EC387}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3B09C41-B1C2-4B6A-B8C5-FF28C3605534}"
+	ProjectSection(SolutionItems) = preProject
+		slovnik\Slovnik.csv = slovnik\Slovnik.csv
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06655502-2DB9-48D7-9DE9-C83ABD169973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06655502-2DB9-48D7-9DE9-C83ABD169973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06655502-2DB9-48D7-9DE9-C83ABD169973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06655502-2DB9-48D7-9DE9-C83ABD169973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA9D471F-3E88-4098-803E-F4476F7EC387}.Debug|Any CPU.ActiveCfg = Debug
+		{DA9D471F-3E88-4098-803E-F4476F7EC387}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {793E3833-BD25-4D19-9005-79DB89FCFDBF}
+	EndGlobalSection
+EndGlobal

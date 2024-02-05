@@ -1,0 +1,81 @@
+﻿<Window x:Name="Main_Window" x:Class="Sibenice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sibenice"
+        mc:Ignorable="d"
+        Title="Šibenice" Height="470" Width="300" Topmost="True" Icon="/noose.160x256.png" WindowStartupLocation="CenterScreen" Loaded="Main_Window_Loaded" PreviewKeyDown="Main_Window_PreviewKeyDown">
+    <Grid x:Name="grid_window">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="195"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="17*"/>
+        </Grid.RowDefinitions>
+
+
+
+        <TextBlock x:Name="konecneSlovo_TextBlock" Grid.Column="1" Grid.Row="6" TextWrapping="Wrap" FontSize="20" FontWeight="Bold" TextAlignment="Center" Margin="0,20,0,0" Grid.RowSpan="2"/>
+        <Button x:Name="nejlepsi_Button" Grid.Column="1" Content="NEHLEPŠÍ HRÁČI" HorizontalAlignment="Left" Grid.Row="9" Margin="140,0,0,0" Click="nejlepsi_Button_Click" Width="100" Height="20" VerticalAlignment="Top"/>
+
+        <Image x:Name="uvodniObr" Grid.Column="1" Grid.Row="4"  Source="/uvodni.png" Visibility="Visible"  Margin="0,40,0,0" Grid.RowSpan="2"/>
+        <Image x:Name="obr1" Grid.Column="1" Grid.Row="4" Source="/1.png" Visibility="Hidden" Margin="0,40,0,0" Grid.RowSpan="2"/>
+        <Image x:Name="obr2" Grid.Column="1" Grid.Row="4" Source="/2.png" Visibility="Hidden" Margin="0,40,0,0" Grid.RowSpan="2" />
+        <Image x:Name="obr3" Grid.Column="1" Grid.Row="4" Source="/3.png" Visibility="Hidden" Margin="0,40,0,0" Grid.RowSpan="2" />
+        <Image x:Name="obr4" Grid.Column="1" Grid.Row="4" Source="/4.png" Visibility="Hidden" Margin="0,40,0,0" Grid.RowSpan="2" />
+        <Image x:Name="obr5" Grid.Column="1" Grid.Row="4" Source="/5.png" Visibility="Hidden" Margin="0,40,0,0" Grid.RowSpan="2" />
+        <Image x:Name="obr6" Grid.Column="1" Grid.Row="4" Source="/6.png" Visibility="Hidden" Margin="0,40,0,0" Grid.RowSpan="2" />
+        <Image x:Name="obr7" Grid.Column="1" Grid.Row="4" Source="/7.png" Visibility="Hidden" Margin="0,40,0,0" Grid.RowSpan="2" />
+        <Image x:Name="obr8" Grid.Column="1" Grid.Row="4" Source="/8.png" Visibility="Hidden" Margin="0,40,0,0" Grid.RowSpan="2" />
+        <Image x:Name="obr9" Grid.Column="1" Grid.Row="4" Source="/9.png" Visibility="Hidden" Margin="0,40,0,0" Grid.RowSpan="2" />
+        <Image x:Name="obr10" Grid.Column="1" Grid.Row="4" Source="/10.png" Visibility="Hidden" Margin="0,40,0,0" Grid.RowSpan="2" />
+        <DockPanel LastChildFill="False" Grid.ColumnSpan="3">
+            <Menu>
+                <MenuItem  Header="Soubor" >
+                    <MenuItem x:Name="VyberDatZ_MenuItem" Header="Vyběr dat z ..." Click="MenuItem_Click" />
+                </MenuItem>
+                <MenuItem  Header="Nápověda" >
+                    <MenuItem x:Name="Napoveda_MenuItem" Header="Jak hrát" Click="JakHrat_MenuItem_Click" />
+                    <MenuItem x:Name="Oprogramu_MenuItem" Header="O programu" Click="OProgramu_MenuItem_Click" />
+                </MenuItem>
+            </Menu>
+
+        </DockPanel>
+
+
+
+        <GroupBox Grid.Column="1" Header="Vyběr slovíček" Grid.Row="2" Grid.RowSpan="3" Width="100" HorizontalAlignment="Right" Margin="0,0,10,0">
+            <Canvas x:Name="canvas2">
+                <Label Content="Uložiště:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0" FontSize="10" FontWeight="Bold"/>
+                <Label x:Name="Uloziste_Label" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,15,0,0" FontSize="10"/>
+                <Label Content="Slovíčko:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,40,0,0" FontSize="10" FontWeight="Bold"/>
+                <Label x:Name="Slovicko_Label" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,55,0,0" FontSize="10"/>
+            </Canvas>
+        </GroupBox>
+        <Button x:Name="NovaHra_Button" Grid.Column="1" Content="NOVÁ HRA" HorizontalAlignment="Left" Grid.Row="9" IsCancel="True" Margin="10,0,0,0" Width="100" Click="NovaHra_Button_Click"/>
+        <GroupBox Grid.Column="1" HorizontalAlignment="Left" Header="Tip písmen" Grid.Row="2" VerticalAlignment="Center" Height="95" Margin="10,0,0,0" Grid.RowSpan="3">
+            <Canvas Width="110">
+
+                <TextBox x:Name="tip_TextBox" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Width="30" Height="30" MaxLength="1" TextAlignment="Center" PreviewTextInput="tip_TextBox_PreviewTextInput" Margin="10,5,0,0"/>
+                <Button x:Name="tipnout_Button" Grid.Column="1" Content="TIPNOUT" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Center" Width="60" Click="tipnout_Button_Click" Margin="10,45,0,0"/>
+            </Canvas>
+        </GroupBox>
+
+
+
+    </Grid>
+</Window>
