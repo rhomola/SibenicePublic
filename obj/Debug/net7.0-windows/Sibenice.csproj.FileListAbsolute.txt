@@ -76,3 +76,43 @@ C:\Users\rhomola\source\repos\Sibenice - kopie\obj\Debug\net7.0-windows\Sibenice
 C:\Users\rhomola\source\repos\Sibenice - kopie\obj\Debug\net7.0-windows\ref\Sibenice.dll
 C:\Users\rhomola\source\repos\Sibenice - kopie\bin\Debug\net7.0-windows\Slovnik.csv
 C:\Users\rhomola\source\repos\Sibenice - kopie\obj\Debug\net7.0-windows\Sibenice_Content.g.cs
+C:\Users\rhomola\source\repos\SibeniceFinished2024\bin\Debug\net7.0-windows\Slovnik.csv
+C:\Users\rhomola\source\repos\SibeniceFinished2024\bin\Debug\net7.0-windows\Sibenice.exe
+C:\Users\rhomola\source\repos\SibeniceFinished2024\bin\Debug\net7.0-windows\Sibenice.dll.config
+C:\Users\rhomola\source\repos\SibeniceFinished2024\bin\Debug\net7.0-windows\Sibenice.deps.json
+C:\Users\rhomola\source\repos\SibeniceFinished2024\bin\Debug\net7.0-windows\Sibenice.runtimeconfig.json
+C:\Users\rhomola\source\repos\SibeniceFinished2024\bin\Debug\net7.0-windows\Sibenice.dll
+C:\Users\rhomola\source\repos\SibeniceFinished2024\bin\Debug\net7.0-windows\Sibenice.pdb
+C:\Users\rhomola\source\repos\SibeniceFinished2024\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\rhomola\source\repos\SibeniceFinished2024\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\rhomola\source\repos\SibeniceFinished2024\bin\Debug\net7.0-windows\Npgsql.dll
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\Sibenice.csproj.AssemblyReference.cache
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\JakHratWindow.g.cs
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\obesenec_obrazky\OProgramu_window.g.cs
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\PrezdivkaMain.g.cs
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\Prohra_Window.g.cs
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\VyberDat_Window.g.cs
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\WindowNejlepsiHraci.g.cs
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\Sibenice_Content.g.cs
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\Sibenice_MarkupCompile.cache
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\Sibenice_MarkupCompile.lref
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\JakHratWindow.baml
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\obesenec_obrazky\OProgramu_window.baml
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\PrezdivkaMain.baml
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\Prohra_Window.baml
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\VyberDat_Window.baml
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\WindowNejlepsiHraci.baml
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\Sibenice.g.resources
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\Sibenice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\Sibenice.AssemblyInfoInputs.cache
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\Sibenice.AssemblyInfo.cs
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\Sibenice.csproj.CoreCompileInputs.cache
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\Sibenice.csproj.CopyComplete
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\Sibenice.dll
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\refint\Sibenice.dll
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\Sibenice.pdb
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\Sibenice.genruntimeconfig.cache
+C:\Users\rhomola\source\repos\SibeniceFinished2024\obj\Debug\net7.0-windows\ref\Sibenice.dll

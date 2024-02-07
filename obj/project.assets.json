@@ -197,11 +197,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rhomola\\source\\repos\\Sibenice - kopie\\Sibenice.csproj",
+      "projectUniqueName": "C:\\Users\\rhomola\\source\\repos\\SibeniceFinished2024\\Sibenice.csproj",
       "projectName": "Sibenice",
-      "projectPath": "C:\\Users\\rhomola\\source\\repos\\Sibenice - kopie\\Sibenice.csproj",
+      "projectPath": "C:\\Users\\rhomola\\source\\repos\\SibeniceFinished2024\\Sibenice.csproj",
       "packagesPath": "C:\\Users\\rhomola\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rhomola\\source\\repos\\Sibenice - kopie\\obj\\",
+      "outputPath": "C:\\Users\\rhomola\\source\\repos\\SibeniceFinished2024\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

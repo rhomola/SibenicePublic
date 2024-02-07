@@ -44,12 +44,17 @@ namespace Sibenice
 
         private void nejlepsiHraci_Window_Closed(object sender, EventArgs e)
         {
-            
-           //Po zavření se se tlačítko aktualní instance Main zase zaktivní
-          //Pokud okno bylo otevřeno přes tlačítko, tlačítko se zase zaktivní  
-           if (MainWindowThis!=null)
-              MainWindowThis.nejlepsi_Button.IsEnabled = true;
-           SpravaSouboruHracu1.Uloz();
+
+            //Po zavření se se tlačítko aktualní instance Main zase zaktivní
+            //Pokud okno bylo otevřeno přes tlačítko, tlačítko se zase zaktivní  
+            if (MainWindowThis != null)
+            {
+                MainWindowThis.nejlepsi_Button.IsEnabled = true;
+            }
+            else
+            {
+                SpravaSouboruHracu1.Uloz();
+            }
         }
     }
 }

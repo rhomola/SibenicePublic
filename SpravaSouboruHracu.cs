@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Xml.Serialization;
 
 namespace Sibenice
@@ -32,6 +34,9 @@ namespace Sibenice
             ListHracu = new ObservableCollection<NejlepsiHrac>();
             cesta = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Sibenice");
             cestaKSouboru = Path.Combine(cesta, "WindowNejlepsiHraci.xml");
+            
+
+
         }
     //konstruktor volaný při při hře hráče a přidání do souboru
         public SpravaSouboruHracu(NejlepsiHrac hrac)
@@ -41,34 +46,46 @@ namespace Sibenice
             cesta = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Sibenice");
             cestaKSouboru = Path.Combine(cesta, "WindowNejlepsiHraci.xml");
             
+
+
         }
         //uložení seznamu výherních hráču do Xml souboru pomocí serilizace
         public void Uloz()
         {
-            XmlSerializer serializer = new XmlSerializer(ListHracu.GetType());
-            using (StreamWriter sw = new StreamWriter(cestaKSouboru))
+            try
             {
-                serializer.Serialize(sw, ListHracu);
+                XmlSerializer serializer = new XmlSerializer(ListHracu.GetType());
+                using (StreamWriter sw = new StreamWriter(cestaKSouboru))
+                {
+                    serializer.Serialize(sw, ListHracu);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Soubor se nepodařilo uložit, ověřte práva k souboru {cestaKSouboru}" );
             }
         }
         // načtení nejlepších hráču do kolekce ze souboru xml a přidání dalšího hráče pokud nějaký byl. Deserilizace
         public void Nacti()
         {
-            XmlSerializer serilizer = new XmlSerializer(ListHracu.GetType());
-            if (File.Exists(cestaKSouboru))
+            try
             {
+                XmlSerializer serilizer = new XmlSerializer(ListHracu.GetType());
                 using (StreamReader sr = new StreamReader(cestaKSouboru))
+                    {
+                        ListHracu = (ObservableCollection<NejlepsiHrac>)serilizer.Deserialize(sr);
+                    }
+                //pokud nebyl vytvořen hráč slouží pouze pro vypsání ze souboru xml
+                if (Hrac != null)
                 {
-                    ListHracu = (ObservableCollection<NejlepsiHrac>)serilizer.Deserialize(sr);
-
+                    ListHracu.Add(Hrac);
                 }
+                SeradPodleChyb();
             }
-            //pokud nebyl vytvořen hráč slouží pouze pro vypsání ze souboru xml
-            if (Hrac != null)
+            catch (Exception ex)
             {
-                ListHracu.Add(Hrac);
+                MessageBox.Show($"Soubor se nepodařilo načíst, ověřte cestu k souboru {cestaKSouboru}");
             }
-            SeradPodleChyb();
         }
         //seřazení hráčů podle počtu chyb od nejméně chyb
         private void SeradPodleChyb()

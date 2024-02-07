@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JjXcBTveRTMx5i1jBPfmM+cf800EjFXmvlGv/pdlN5Yxe1o5FwL1BS9aaSQ8HCp9MKiEr8O2XWpequvwAjyQJg==",
+  "dgSpecHash": "X24pyUqLuIsO3PyXAumTUh5z1DxFqopwRXecONRks/sPVCwRHKVN3xD3lf+VzKnFW/2WQBnYUi9aJ1SoH+Y/Rw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rhomola\\source\\repos\\Sibenice - kopie\\Sibenice.csproj",
+  "projectFilePath": "C:\\Users\\rhomola\\source\\repos\\SibeniceFinished2024\\Sibenice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rhomola\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\rhomola\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
